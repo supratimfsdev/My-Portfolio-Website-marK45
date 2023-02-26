@@ -35,12 +35,12 @@ margin: auto;
 
 .link-primary {
  background-color : var(--primary-color);
- border-radius: 0.5rem;
+ border-radius: 1.0rem;
  color: white;
 }
 .link-secondary{
 color: var(--primary-color);
-border-radius: 0.5rem;
+border-radius: 1.0rem;
 border: 1px solid var(--primary-color);
 }
 hr {
@@ -49,6 +49,8 @@ hr {
 /** list **/
 .non-bullet{
     list-style: none;
+    padding: 0rem;
+    
 }
 .list-item-inline{
     display: inline;
