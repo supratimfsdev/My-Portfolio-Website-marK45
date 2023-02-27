@@ -13,7 +13,11 @@ body{
 }
 
 /**container**/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
 
+}
 .container-fluid{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -104,11 +108,15 @@ hr {
 }
 .section h1{
 text-align: center;
-
 }
 .ow{
     background-color: var(--off-white);
 }
+.text-center
+{
+text-align: center;
+}
+
 
 footer{
     background-color: var(--primary-color);
